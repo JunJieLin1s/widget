@@ -3,9 +3,7 @@ import Dashboard from '@/components/Dashboard.vue'
 </script>
 
 <template>
-  <div>
+  <div class="p-4">
     <Dashboard />
   </div>
 </template>
-
-<style scoped></style>

@@ -1,7 +1,11 @@
 <script setup lang="ts">
-import Dashboard from './components/Dashboard.vue'
+import Navbar from './components/Navbar.vue'
+import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <Dashboard />
+  <div>
+    <Navbar />
+    <RouterView />
+  </div>
 </template>
